@@ -16,6 +16,7 @@
 1. [Identifiers](#identifiers)
 1. [Subjects](#subjects)
 1. [Example](#example)
+1. [Areas to develop](#areas-to-develop)
 1. [Version history](#version-history)
 
 ## Base type
@@ -163,6 +164,11 @@ Taking an example Best Practice from the repository, [_"Creating a weekly Harmfu
 	"keywords": ["Parameter Discipline::Biological oceanography::Macroalgae and seagrass", "Parameter Discipline::Biological oceanography::Phytoplankton", "Phytoplankton biomass and diversity", "Sea surface temperature", "Ocean colour", "Ocean surface stress", "Sea surface height", "Subsurface temperature", "Surface currents", "Sea surface salinity", "Subsurface salinity", "Ocean surface heat flux", "Biotoxins / Phycotoxins", "Best Practice", "Manual"]
 }
 ```
+
+## Areas to develop
+1. ORCID inclusion on `Person` instances
+1. Other IRIs which can be included
+1. Request a change to the domain of numberOfPages
 
 ## Version history
 
