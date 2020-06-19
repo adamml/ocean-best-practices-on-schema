@@ -91,7 +91,11 @@ The `name` attribute in `Schema.org`
 
 ## Authors and Maintainers
 
-The [`Schema.org/author`](https://schema.org/author) attribute assigns a [`Person`](https://schema.org/Person) or [`Organization`](https://schema.org/Organization) responsible for the creation of a `CreativeWork` to that entity. For example:
+The [`Schema.org/author`](https://schema.org/author) attribute assigns a [`Person`](https://schema.org/Person) or [`Organization`](https://schema.org/Organization) responsible for the creation of a `CreativeWork` to that entity. 
+
+![The use of `Schema.org/Person` for instances of `author` and `maintainer`](./img/obpsAsSchema_02_person.png)
+
+For example:
 
 ```json
 {
