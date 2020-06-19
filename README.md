@@ -149,7 +149,19 @@ The [`about`](https://schema.org/about) attribute allows for more detailed termi
 Taking an example Best Practice from the repository, [_"Creating a weekly Harmful Algal Bloom bulletin. Version 1.0. [Best Practie Description Document]"_](https://repository.oceanbestpractices.org/handle/11329/424) a Schema.org representation, which would be embedded within the landing page for the repository is as follows:
 
 ```json
-
+{
+	"@context": "https://schema.org/",
+	"@type": "CreativeWork",
+	"@id": "https://repository.oceanbestpractices.org/handle/11329/424",
+	"numberOfPages": 59,
+	"author": [
+		{"@type": "Person", "familyName": "Leadbetter", "givenName": "Adam"},
+		{"@type": "Person", "familyName": "Silke", "givenName": "Joe"},
+		{"@type": "Person", "familyName": "Cusack", "givenName": "Caroline"}
+	],
+	"maintainer": {"@type": "Person", "familyName": "Leadbetter", "givenName": "Adam", "email": "adam.leadbetter@marine.ie"},
+	"keywords": ["Parameter Discipline::Biological oceanography::Macroalgae and seagrass", "Parameter Discipline::Biological oceanography::Phytoplankton", "Phytoplankton biomass and diversity", "Sea surface temperature", "Ocean colour", "Ocean surface stress", "Sea surface height", "Subsurface temperature", "Surface currents", "Sea surface salinity", "Subsurface salinity", "Ocean surface heat flux", "Biotoxins / Phycotoxins", "Best Practice", "Manual"]
+}
 ```
 
 ## Version history
