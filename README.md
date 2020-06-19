@@ -21,6 +21,8 @@
 ## Base type
 The base type chosen from the `Schema.org` vocabulary to represent a Best Practices document within the Ocean Best Practices Repository is [`CreativeWork`](https://schema.org/CreativeWork). From the Schema.org documentation, this base type represents `the most generic kind of creative work, including books, movies, photographs, software programs, etc.`.
 
+![Base type diagram for representing entries in the Ocean Best Practices repository as Schema.org `CreativeWork` instances](./img/obpsAsSchema_01_overview.png)
+
 ## Metadata field mapping
 
 Digging into the DSpace implementation of the repository, reveals a rich metadata model based on the Dublin Core mtadata terms. The following table shows a mapping from Dublin Core to appropiate Schema.org attributes, within the domain of the type of `CreativeWork`.
